@@ -1,0 +1,15 @@
+{
+  "name": "diverse-ethchain-pow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-account": "geth account new --datadir data",
+    "create-genesis-block": "geth init --datadir data genesis.json",
+    "start-chain": "geth --datadir data --networkid 1014",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
